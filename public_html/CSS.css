@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@media only screen and (max-width:780px){
+    #menulateral {
+        display:none;
+    }
+    #cabecalho{
+        background-image: url(chapolin.png);
+        background-repeat: no-repeat;
+        text-align:
+            
+    }
+   
+        
+        
+   
+    
+ 
+}
+
+
+@media only screen and (max-width:1200px){   
+
+    #conteiner{
+        background-color: yellowgreen;
+        width: 900px;
+        height: 1200px;
+        margin: auto;
+
+
+    }
+
+    #cabecalho{
+
+        background-color: #cc0000;
+        width:100% ;
+        height: 15%;
+        text-align: center;
+        color: yellow;
+
+    }
+    #corpo{
+        background-color: black;
+        width: 100%;
+        height: 80%;
+        margin: auto;
+    }
+
+
+    #menulateral{
+
+        background-color: blue;
+        width: 20%;
+        height:95%;
+        float: left;
+        margin: 20px;
+
+
+
+    }
+    #conteudolateral{
+
+        background-color: #ffff00;
+        width: 70%;
+        height: 910;
+        margin: 20px;
+        float:right;
+        text-align: center;
+        color: red;
+
+
+    }
+
+
+    #rodape{
+        background-color: #668cff;
+        width:100% ;
+        height: 10%;
+
+    }
+
+}
